@@ -104,8 +104,8 @@ git_pull() {
 ensure_git_remote_configured() {
     local remote_url
     remote_url="$(git -C "${SCRIPT_DIR}" remote get-url origin 2>/dev/null || true)"
-    if [[ "${remote_url}" != *"github.com"* ]]; then
-        log_section "Git remote not configured — running setup.sh first"
+    if [[ "${remote_url}" != git@github.com* ]]; then
+        log_section "Git remote not SSH — running setup.sh first"
         bash "${SCRIPT_DIR}/setup.sh"
     fi
 }
