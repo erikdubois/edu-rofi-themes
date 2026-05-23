@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="kiro.jpg" alt="Kiro" width="220" />
+</p>
+
 # edu-rofi-themes
 
 A bundle of [rofi](https://github.com/davatorium/rofi) themes (`*.rasi`) installed system-wide, ready to be selected from any rofi config. Pair with [edu-rofi](https://github.com/erikdubois/edu-rofi) for the matching launcher configuration. Part of the `~/EDU/` learning series.
